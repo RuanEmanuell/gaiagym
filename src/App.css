@@ -1,8 +1,10 @@
-body{
+body {
   background-color: black;
+  color: white;
+  min-width: 320px;
 }
 
-.navbar{
+.navbar {
   width: 100vw;
   height: 3em;
   background-color: rgb(75, 0, 145);
@@ -10,7 +12,7 @@ body{
   justify-content: center;
 }
 
-.navbarContent{
+.navbarContent {
   height: 100%;
   width: 100%;
   max-width: 1280px;
@@ -19,39 +21,145 @@ body{
   justify-content: space-between;
 }
 
-.navbarTitle{
+.navbarTitle {
   color: white;
   margin: auto 0;
   padding-left: 10px;
-  width: 15%;
 }
 
-.navbarOptions{
+.navbarOptions {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.navbarOptions h2{
-  color: white;
+.navbarOptions h2 {
+  color: rgba(255, 255, 255, 0.877);
   font-size: medium;
-  margin: 0 5%;
+  margin-right: 5%;
 }
 
-.navbarIcon{
-  fill:white;
+.navbarOptions h2:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.navbarIcon {
+  fill: white;
   padding-right: 10px;
   width: 30px;
   height: 30px;
   display: none;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containerBackground {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  filter: blur(3px) brightness(0.3);
+}
+
+main {
+  z-index: 2;
+  width: 100%;
+  max-width: 1280px;
+  animation: 2s prices;
+}
+
+.title {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.prices {
+  border-radius: 10px;
+  height: 27.5em;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  animation: 4s prices;
+}
+
+.priceBox {
+  margin: 2.5%;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(75, 0, 145);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.2s all;
+}
+
+.priceImg {
+  height: 12.5em;
+  width: 75%;
+  max-width: 270px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.priceDescription {
+  text-align: center;
+  margin: 20px 5px;
+}
+
+.standartButton {
+  background-color: rgb(75, 0, 145);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 2.5% 5%;
+  transition: 0.2s all;
+}
+
+.standartButton:hover {
+  cursor: pointer;
+  background-color: black;
+
+}
+
+@keyframes prices{
+  from  {opacity: 0}
+  to  {opacity: 1}
+}
+
 @media (max-width: 768px) {
-  .navbarOptions{
+  .navbarOptions {
     display: none;
   }
 
+  .prices {
+    height: 60em;
+    flex-direction: column;
+  }
+
+  .priceBox {
+    width: 66%;
+    margin: 10px auto;
+  }
+
+  .priceImg {
+    width: 66%;
+  }
+
   .navbarIcon {
-      display: flex; 
+    display: flex;
   }
 }

@@ -29,22 +29,30 @@ function App() {
                 Plano Fit
               </h3>
               <img src={Plan1Img} className="priceImg"></img>
-              <p className="priceDescription">Treine quando quiser</p>
-              <h3 className="priceTitle">
-                A partir de R$ 89,99
-              </h3>
-              <button className="standartButton">Escolher</button>
+              <section className="descriptionBox">
+              <p className="priceDescription">Treine quando puder, quando quiser</p>
+              </section>
+              <section className="choiceBox">
+                <h3 className="priceTitle">
+                  A partir de R$ 89,99
+                </h3>
+                <button className="standartButton">Escolher</button>
+              </section>
             </div>
             <div className="priceBox">
               <h3 className="priceTitle">
                 Plano Smart
               </h3>
               <img src={Plan2Img} className="priceImg"></img>
-              <p className="priceDescription">Treine acompanhado por um de nossos profissionais</p>
-              <h3 className="priceTitle">
-                A partir de R$ 129,99
-              </h3>
-              <button className="standartButton">Escolher</button>
+              <section className="descriptionBox">
+              <p className="priceDescription">Treine acompanhando por um de nossos profissionais</p>
+              </section>
+              <section className="choiceBox">
+                <h3 className="priceTitle">
+                  A partir de R$ 129,99
+                </h3>
+                <button className="standartButton">Escolher</button>
+              </section>
             </div>
           </article>
         </main>

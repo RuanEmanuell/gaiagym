@@ -10,6 +10,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+dialog[open]{
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}
+
+dialog:modal {
+  max-width: 100vw;
+}
+
 .container {
   display: flex;
   justify-content: center;

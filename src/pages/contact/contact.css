@@ -52,7 +52,6 @@
   fill: white;
 }
 
-
 @media (max-width: 768px) {
   .contactGrid {
     grid-template-columns: 1fr;

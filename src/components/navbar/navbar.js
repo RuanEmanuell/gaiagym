@@ -1,10 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { ReactComponent as MenuIcon } from "../../images/menu.svg";
 import "../../App.css";
 import "./navbar.css";
 
 function Navbar() {
   const dialogRef = useRef(null);
+
   function openMobileMenu() {
     dialogRef.current.showModal();
   }
@@ -19,6 +20,15 @@ function Navbar() {
       behavior: "smooth"
     })
   }
+
+  useEffect(() => {
+    window.addEventListener("scroll", closeMobileMenu);
+
+    return () => {
+      window.removeEventListener("scroll", closeMobileMenu);
+    }
+  }, []);
+
   return (
     <nav className="navbar">
       <section className="navbarContent">

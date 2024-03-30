@@ -14,6 +14,7 @@ dialog[open]{
   display: flex;
   align-items: start;
   justify-content: end;
+  border: none;
 }
 
 dialog:modal {

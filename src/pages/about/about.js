@@ -6,6 +6,7 @@ import { ReactComponent as DumbellIcon } from "../../images/dumbell.svg";
 import { ReactComponent as TechIcon } from "../../images/tech.svg";
 import { ReactComponent as AppleIcon } from "../../images/apple.svg";
 import { ReactComponent as ComunityIcon } from "../../images/comunity.svg";
+import { ReactComponent as PointersIcon } from "../../images/pointers.svg";
 import Reason from '../../components/reason/reason';
 
 function About() {
@@ -48,7 +49,7 @@ function About() {
           <Reason
             reasonColor="#ae00ff"
             reasonTitle="Flexibilidade de Planos"
-            reasonIcon={TechIcon}
+            reasonIcon={PointersIcon}
             reasonSubtitle="Escolha entre uma variedade de planos que se adaptam ao seu estilo de vida e necessidades"
           />
         </section>

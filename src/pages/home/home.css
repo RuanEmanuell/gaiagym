@@ -56,6 +56,10 @@
   border-radius: 0 0 10px 10px;
 }
 
+.choiceBox .priceTitle{
+  margin-top: 0;
+}
+
 .standartButton {
   background-color: rgb(75, 0, 145);
   color: white;

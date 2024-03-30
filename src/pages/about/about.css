@@ -15,7 +15,7 @@
 
 @media (max-width: 768px) {
   .aboutReasonsBox{
-    height: 45em;
+    height: 55em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
   }

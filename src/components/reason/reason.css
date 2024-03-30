@@ -1,0 +1,25 @@
+.aboutReason {
+    width: 95%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reasonIcon {
+    margin-top: 10%;
+    margin-bottom: 5px;
+    width: 25%;
+    height: auto;
+    fill: white;
+}
+
+.aboutReason h3 {
+    margin: 0;
+}
+
+.aboutReason p {
+    margin: auto 10px;
+}

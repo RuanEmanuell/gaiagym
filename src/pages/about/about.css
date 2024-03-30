@@ -1,3 +1,22 @@
 .about{
   background-color: rgb(75, 0, 145);
 }
+
+.aboutReasonsBox{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  height: 30em;
+  width: 90%;
+  max-width: 840px;
+  margin: 2.5em auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .aboutReasonsBox{
+    height: 45em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}

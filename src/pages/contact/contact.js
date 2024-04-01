@@ -17,9 +17,9 @@ function Contact() {
             <p>Venha nos visitar!</p>
           </div>
           <div className="contactButtonsBox">
-            <button className="contactButton" style={{backgroundColor:"#14c700"}}><WhatsappIcon className="contactButtonIcon"/>Whatsapp</button>
-            <button className="contactButton" style={{backgroundColor:"#dd2a7b"}}><InstagramIcon className="contactButtonIcon"/>Instagram</button>
-            <button className="contactButton" style={{backgroundColor:"#000000"}}><GooglePlayIcon className="contactButtonIcon"/>Nosso app</button>
+            <button className="contactButton" style={{ backgroundColor: "#14c700" }}><WhatsappIcon className="contactButtonIcon" />Whatsapp</button>
+            <button className="contactButton" style={{ backgroundColor: "#dd2a7b" }}><InstagramIcon className="contactButtonIcon" />Instagram</button>
+            <button className="contactButton" style={{ backgroundColor: "#000000" }}><GooglePlayIcon className="contactButtonIcon" />Nosso app</button>
           </div>
         </div>
       </main>

@@ -1,3 +1,7 @@
+:root {
+  color-scheme: only light;
+}
+
 body {
   background-color: black;
   color: white;
@@ -10,7 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-dialog[open]{
+dialog[open] {
   display: flex;
   align-items: start;
   justify-content: end;

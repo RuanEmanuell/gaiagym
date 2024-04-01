@@ -1,8 +1,8 @@
-.about{
+.about {
   background-color: rgb(75, 0, 145);
 }
 
-.aboutReasonsBox{
+.aboutReasonsBox {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 768px) {
-  .aboutReasonsBox{
+  .aboutReasonsBox {
     height: 55em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);

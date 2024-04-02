@@ -1,6 +1,6 @@
 # Veja a versão em Português <a href="README-ptbr.md">aqui</a>
 
-## DevBlog
+## GaiaGym
 
 ### What is this? 🤔 
 This project is a prototype for a landing page of a gym.
